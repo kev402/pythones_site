@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kev402.github.io/pythones_site/sitemap.xml
