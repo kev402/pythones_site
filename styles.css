@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #14ad3a;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    animation: slideInLeft 1s ease-out;
+}
+
+.documentation {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.documentation h2 {
+    margin-top: 2rem;
+}
+
+
+a {
+    color: #008cba;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
